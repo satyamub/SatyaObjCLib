@@ -1,0 +1,14 @@
+PODS:
+  - SatyaObjCLib (0.1.0)
+
+DEPENDENCIES:
+  - SatyaObjCLib (from `../`)
+
+EXTERNAL SOURCES:
+  SatyaObjCLib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SatyaObjCLib: 4f83b4e5590a1e663cb93a2d7a32cd7366e2b777
+
+COCOAPODS: 0.38.2

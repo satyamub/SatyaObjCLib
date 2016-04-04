@@ -1,0 +1,6 @@
+framework module SatyaObjCLib {
+  umbrella header "SatyaObjCLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

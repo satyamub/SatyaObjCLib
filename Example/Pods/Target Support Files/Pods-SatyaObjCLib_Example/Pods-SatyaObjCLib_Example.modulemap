@@ -1,0 +1,6 @@
+framework module Pods_SatyaObjCLib_Example {
+  umbrella header "Pods-SatyaObjCLib_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

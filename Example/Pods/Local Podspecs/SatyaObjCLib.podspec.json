@@ -1,0 +1,25 @@
+{
+  "name": "SatyaObjCLib",
+  "version": "0.1.0",
+  "summary": "A short description of SatyaObjCLib.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/SatyaObjCLib",
+  "license": "MIT",
+  "authors": {
+    "Satya Prakash Dash": "satya.saphire@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/SatyaObjCLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "SatyaObjCLib": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

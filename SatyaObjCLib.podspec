@@ -9,22 +9,21 @@
 Pod::Spec.new do |s|
   s.name             = "SatyaObjCLib"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SatyaObjCLib."
+  s.summary          = "This lib is to test the library with objective c with cocoapod package."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
+  s.description      = "This is just to check the cocoapod functionality with objective c"
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SatyaObjCLib"
+  s.homepage         = "https://github.com/satyamub/SatyaObjCLib"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Satya Prakash Dash" => "satya.saphire@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SatyaObjCLib.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/satyamub/SatyaObjCLib.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/satyasaphire'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
@@ -37,4 +36,5 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.ios.vendored_frameworks = 'Bolts.framework', 'FBSDKCoreKit.framework', 'FBSDKLoginKit.framework'
 end
