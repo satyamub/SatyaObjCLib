@@ -1,15 +1,15 @@
 {
   "name": "SatyaObjCLib",
   "version": "0.1.0",
-  "summary": "A short description of SatyaObjCLib.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/SatyaObjCLib",
+  "summary": "This lib is to test the library with objective c with cocoapod package.",
+  "description": "This is just to check the cocoapod functionality with objective c",
+  "homepage": "https://github.com/satyamub/SatyaObjCLib",
   "license": "MIT",
   "authors": {
     "Satya Prakash Dash": "satya.saphire@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/SatyaObjCLib.git",
+    "git": "https://github.com/satyamub/SatyaObjCLib.git",
     "tag": "0.1.0"
   },
   "platforms": {
@@ -20,6 +20,13 @@
   "resource_bundles": {
     "SatyaObjCLib": [
       "Pod/Assets/*.png"
+    ]
+  },
+  "ios": {
+    "vendored_frameworks": [
+      "Bolts.framework",
+      "FBSDKCoreKit.framework",
+      "FBSDKLoginKit.framework"
     ]
   }
 }

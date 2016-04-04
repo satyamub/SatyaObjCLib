@@ -21,21 +21,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9150D204BFD68E69F6F32510D7C8661C /* PBXContainerItemProxy */ = {
+		18E3A7C954E7EE1AA25349774163FD56 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 78B653829CD9A715414ECAE5B592CE69;
 			remoteInfo = SatyaObjCLib;
 		};
-		ADA66079446165221F12AD86B7849077 /* PBXContainerItemProxy */ = {
+		6C5288DB44F42B4F92CC01E75D4F850F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6801DB21447F20ADA9AE40CFF2B13A6A;
 			remoteInfo = "SatyaObjCLib-SatyaObjCLib";
 		};
-		BC668C78DBCF9E6C0133B6F937E98D86 /* PBXContainerItemProxy */ = {
+		B9ABD380D4798EA6C28BBB5F291F5657 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -46,9 +46,9 @@
 
 /* Begin PBXFileReference section */
 		08AFFD0657130876AE447DA05A1603AE /* Pods-SatyaObjCLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SatyaObjCLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0C90083A4D32C26A2232DAC8F0A5F646 /* SatyaObjCLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SatyaObjCLib-prefix.pch"; sourceTree = "<group>"; };
 		15A0CA5B6460528AE151ACFFFFF0DAE0 /* Pods-SatyaObjCLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SatyaObjCLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		24D272F48A4EBCFC0782745CE3091EA4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2772449022C059BCBD4D95A1960E6BEA /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		32C96C2B792DF08D654B552744CC380F /* SatyaObjCLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SatyaObjCLib-dummy.m"; sourceTree = "<group>"; };
 		3328DBF16814E58C49EB59C02CCF4453 /* Pods-SatyaObjCLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SatyaObjCLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		39E821E4158DEA52B032AC1C723E4157 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
@@ -62,6 +62,8 @@
 		674C037A3039C524E99EE8A94B1CB992 /* Pods-SatyaObjCLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SatyaObjCLib_Tests-resources.sh"; sourceTree = "<group>"; };
 		6C5D8E04F0D142ED681224CD0DE0BC80 /* Pods-SatyaObjCLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SatyaObjCLib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		71FE96D5FAD249895C65CBC9FB3E4562 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76A8C8683BAE787D5924C93AA954A835 /* SatyaObjCLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SatyaObjCLib.modulemap; sourceTree = "<group>"; };
+		86A0BD5F81F605D04FA8239BBE9527D7 /* SatyaObjCLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SatyaObjCLib.xcconfig; sourceTree = "<group>"; };
 		8C039FA1D87DAC5C131E65D0FAEE18D7 /* Pods-SatyaObjCLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SatyaObjCLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		92714CD6A814453099EDB97E56468F7C /* SatyaObjCLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SatyaObjCLib.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		9511EE2559D0D2D442381AF727B53AF7 /* SatyaObjCLib-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SatyaObjCLib-Private.xcconfig"; sourceTree = "<group>"; };
@@ -69,16 +71,17 @@
 		9FAF81784F075245D3F784DAC43D8902 /* Pods-SatyaObjCLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SatyaObjCLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		AF7B302D5327DF01FDA3D7CF85B018BA /* Pods_SatyaObjCLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SatyaObjCLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C8B3258B0654B26FCD70B6FE17428BB4 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		CAC0CF94C837325E37DCF392FCACA9B1 /* Pods-SatyaObjCLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SatyaObjCLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CC2636688A122D9EE50E5FDEC58C1162 /* Pods-SatyaObjCLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SatyaObjCLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CEB4E93C815382A6D152CDB593D5425C /* SatyaObjCLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SatyaObjCLib-umbrella.h"; sourceTree = "<group>"; };
-		D7F834D56B4D69FFFC8D64F2D4E5B329 /* SatyaObjCLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SatyaObjCLib.xcconfig; sourceTree = "<group>"; };
 		D8BE83C9AE7CCA42FF332AE57371DB0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D9C0FFE00319AB7C032B8237E7C7FF66 /* Pods-SatyaObjCLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SatyaObjCLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		DDA4313B47760F3AE4D1957560D8E85D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE95CCDE4F4F80B40AC8FD2A0701FBE5 /* Pods-SatyaObjCLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SatyaObjCLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F166E49DED829097F83BB46002144387 /* SatyaObjCLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SatyaObjCLib.modulemap; sourceTree = "<group>"; };
+		E11F38CD810973EB31B0E3DC622C103B /* SatyaObjCLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SatyaObjCLib-prefix.pch"; sourceTree = "<group>"; };
+		E4E2F063CC72A9BD8F0180494EF4E491 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		F46A5AF7FEAF931FDA5DBC53E1DB7CAC /* Pods-SatyaObjCLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SatyaObjCLib_Tests.modulemap"; sourceTree = "<group>"; };
-		F85A379497DC79381C3338E0779F6AF4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,20 +119,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2AB8514B1E4BDCB13E9185C15146F512 /* Classes */ = {
+		0A89DFA6C68845C0D69DF9B7D4657A40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8B3258B0654B26FCD70B6FE17428BB4 /* Bolts.framework */,
+				E4E2F063CC72A9BD8F0180494EF4E491 /* FBSDKCoreKit.framework */,
+				2772449022C059BCBD4D95A1960E6BEA /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CA17D5311E20EF3E303438132792A51 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				39E821E4158DEA52B032AC1C723E4157 /* ReplaceMe.m */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		323391985CC9CDE26AF9CCF274800B5F /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2AB8514B1E4BDCB13E9185C15146F512 /* Classes */,
-			);
-			path = Pod;
 			sourceTree = "<group>";
 		};
 		45E22190FDC2610D0006C86E0310C902 /* Pods-SatyaObjCLib_Tests */ = {
@@ -167,21 +172,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6BEB1C198F36D344269B07ED88B2D241 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F85A379497DC79381C3338E0779F6AF4 /* Info.plist */,
-				F166E49DED829097F83BB46002144387 /* SatyaObjCLib.modulemap */,
-				D7F834D56B4D69FFFC8D64F2D4E5B329 /* SatyaObjCLib.xcconfig */,
-				9511EE2559D0D2D442381AF727B53AF7 /* SatyaObjCLib-Private.xcconfig */,
-				32C96C2B792DF08D654B552744CC380F /* SatyaObjCLib-dummy.m */,
-				0C90083A4D32C26A2232DAC8F0A5F646 /* SatyaObjCLib-prefix.pch */,
-				CEB4E93C815382A6D152CDB593D5425C /* SatyaObjCLib-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SatyaObjCLib";
-			sourceTree = "<group>";
-		};
 		7B57D630AA9442EF1BD0FB7774785C31 /* Pods-SatyaObjCLib_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,21 +194,26 @@
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				F8085CC7CEEC0A4077DB96BAC35E41F1 /* Development Pods */,
+				EAB16D8E46B6D78061C2BC81FBA551A4 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
 				5F50B41635A4C364F514050A960E38D8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8A1385140D695783DAFF3806B8541345 /* SatyaObjCLib */ = {
+		85C974D4D5E261EF013C9C10DCAC21CA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				323391985CC9CDE26AF9CCF274800B5F /* Pod */,
-				6BEB1C198F36D344269B07ED88B2D241 /* Support Files */,
+				DDA4313B47760F3AE4D1957560D8E85D /* Info.plist */,
+				76A8C8683BAE787D5924C93AA954A835 /* SatyaObjCLib.modulemap */,
+				86A0BD5F81F605D04FA8239BBE9527D7 /* SatyaObjCLib.xcconfig */,
+				9511EE2559D0D2D442381AF727B53AF7 /* SatyaObjCLib-Private.xcconfig */,
+				32C96C2B792DF08D654B552744CC380F /* SatyaObjCLib-dummy.m */,
+				E11F38CD810973EB31B0E3DC622C103B /* SatyaObjCLib-prefix.pch */,
+				CEB4E93C815382A6D152CDB593D5425C /* SatyaObjCLib-umbrella.h */,
 			);
-			name = SatyaObjCLib;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SatyaObjCLib";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -227,6 +222,14 @@
 				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD38A0495B8EC13D30A0D167DB5ADB15 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2CA17D5311E20EF3E303438132792A51 /* Classes */,
+			);
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
@@ -240,10 +243,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F8085CC7CEEC0A4077DB96BAC35E41F1 /* Development Pods */ = {
+		CE03A7C4BF9E48FEE236175EEED31B39 /* SatyaObjCLib */ = {
 			isa = PBXGroup;
 			children = (
-				8A1385140D695783DAFF3806B8541345 /* SatyaObjCLib */,
+				0A89DFA6C68845C0D69DF9B7D4657A40 /* Frameworks */,
+				BD38A0495B8EC13D30A0D167DB5ADB15 /* Pod */,
+				85C974D4D5E261EF013C9C10DCAC21CA /* Support Files */,
+			);
+			name = SatyaObjCLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EAB16D8E46B6D78061C2BC81FBA551A4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE03A7C4BF9E48FEE236175EEED31B39 /* SatyaObjCLib */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -307,7 +321,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				4BE113D2F26A76C167A9A49D47BA2ACA /* PBXTargetDependency */,
+				DE631A3E130FBA0D79C45969292C9C1C /* PBXTargetDependency */,
 			);
 			name = SatyaObjCLib;
 			productName = SatyaObjCLib;
@@ -325,7 +339,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				22B9DFAF5DDFA0C62492E93089767232 /* PBXTargetDependency */,
+				B0FB235B6DBEBDCD422F496492067BE5 /* PBXTargetDependency */,
 			);
 			name = "Pods-SatyaObjCLib_Example";
 			productName = "Pods-SatyaObjCLib_Example";
@@ -343,7 +357,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				9E0EFC196D4CC5F8C64E16E5579DF454 /* PBXTargetDependency */,
+				E35C05E5AAC327F684D85F94E32C132C /* PBXTargetDependency */,
 			);
 			name = "Pods-SatyaObjCLib_Tests";
 			productName = "Pods-SatyaObjCLib_Tests";
@@ -433,23 +447,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		22B9DFAF5DDFA0C62492E93089767232 /* PBXTargetDependency */ = {
+		B0FB235B6DBEBDCD422F496492067BE5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SatyaObjCLib;
 			target = 78B653829CD9A715414ECAE5B592CE69 /* SatyaObjCLib */;
-			targetProxy = 9150D204BFD68E69F6F32510D7C8661C /* PBXContainerItemProxy */;
+			targetProxy = 18E3A7C954E7EE1AA25349774163FD56 /* PBXContainerItemProxy */;
 		};
-		4BE113D2F26A76C167A9A49D47BA2ACA /* PBXTargetDependency */ = {
+		DE631A3E130FBA0D79C45969292C9C1C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "SatyaObjCLib-SatyaObjCLib";
 			target = 6801DB21447F20ADA9AE40CFF2B13A6A /* SatyaObjCLib-SatyaObjCLib */;
-			targetProxy = ADA66079446165221F12AD86B7849077 /* PBXContainerItemProxy */;
+			targetProxy = 6C5288DB44F42B4F92CC01E75D4F850F /* PBXContainerItemProxy */;
 		};
-		9E0EFC196D4CC5F8C64E16E5579DF454 /* PBXTargetDependency */ = {
+		E35C05E5AAC327F684D85F94E32C132C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SatyaObjCLib;
 			target = 78B653829CD9A715414ECAE5B592CE69 /* SatyaObjCLib */;
-			targetProxy = BC668C78DBCF9E6C0133B6F937E98D86 /* PBXContainerItemProxy */;
+			targetProxy = B9ABD380D4798EA6C28BBB5F291F5657 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

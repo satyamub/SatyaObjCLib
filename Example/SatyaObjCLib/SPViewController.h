@@ -7,6 +7,8 @@
 //
 
 @import UIKit;
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
 
 @interface SPViewController : UIViewController
 

@@ -1,5 +1,7 @@
 #include "SatyaObjCLib.xcconfig"
+FRAMEWORK_SEARCH_PATHS = ${SATYAOBJCLIB_FRAMEWORK_SEARCH_PATHS}
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/SatyaObjCLib" "${PODS_ROOT}/Headers/Public"
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/SatyaObjCLib" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/SatyaObjCLib/Bolts" "${PODS_ROOT}/Headers/Public/SatyaObjCLib/FBSDKCoreKit" "${PODS_ROOT}/Headers/Public/SatyaObjCLib/FBSDKLoginKit"
+OTHER_LDFLAGS = ${SATYAOBJCLIB_OTHER_LDFLAGS}
 PODS_ROOT = ${SRCROOT}
 SKIP_INSTALL = YES

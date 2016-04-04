@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DCA2DF0FA6BC70EC2DA728EF"
+               BlueprintIdentifier = "6CD15BF70E2CC33B382754C4"
                BuildableName = "SatyaObjCLib.framework"
                BlueprintName = "SatyaObjCLib"
                ReferencedContainer = "container:Pods.xcodeproj">

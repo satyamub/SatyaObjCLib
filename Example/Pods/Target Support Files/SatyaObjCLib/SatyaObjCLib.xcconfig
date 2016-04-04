@@ -1,0 +1,2 @@
+SATYAOBJCLIB_FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/../.." "$(PODS_ROOT)/../.." "$(PODS_ROOT)/../.."
+SATYAOBJCLIB_OTHER_LDFLAGS = -framework "Bolts" -framework "FBSDKCoreKit" -framework "FBSDKLoginKit"
