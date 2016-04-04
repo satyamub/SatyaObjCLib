@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'SatyaObjCLib_Example', :exclusive => true do
+  pod 'SatyaObjCLib', :path => '../'
+end
+
+target 'SatyaObjCLib_Tests', :exclusive => true do
+  pod 'SatyaObjCLib', :path => '../'
+
+  
+end
