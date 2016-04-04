@@ -18,7 +18,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKGraphRequestConnection.h>
+#import <FBSDKCoreKit/FBSDKGraphRequestConnection.h>
 
 @class FBSDKAccessToken;
 

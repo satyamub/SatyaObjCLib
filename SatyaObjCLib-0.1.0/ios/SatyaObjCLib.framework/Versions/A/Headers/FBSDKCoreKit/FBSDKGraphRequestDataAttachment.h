@@ -16,23 +16,37 @@
 // IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 // CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKAccessToken.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKAppEvents.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKAppLinkUtility.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKApplicationDelegate.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKConstants.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKCopying.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKGraphRequest.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKGraphRequestConnection.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKMacros.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKMutableCopying.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKProfile.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKProfilePictureView.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKSettings.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKTestUsersManager.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKUtility.h>
+/*!
+ @abstract A container class for data attachments so that additional metadata can be provided about the attachment.
+ */
+@interface FBSDKGraphRequestDataAttachment : NSObject
 
-#define FBSDK_VERSION_STRING @"4.1.0"
-#define FBSDK_TARGET_PLATFORM_VERSION @"v2.3"
+/*!
+ @abstract Initializes the receiver with the attachment data and metadata.
+ @param data The attachment data (retained, not copied)
+ @param filename The filename for the attachment
+ @param contentType The content type for the attachment
+ */
+- (instancetype)initWithData:(NSData *)data
+                    filename:(NSString *)filename
+                 contentType:(NSString *)contentType
+NS_DESIGNATED_INITIALIZER;
+
+/*!
+ @abstract The content type for the attachment.
+ */
+@property (nonatomic, copy, readonly) NSString *contentType;
+
+/*!
+ @abstract The attachment data.
+ */
+@property (nonatomic, strong, readonly) NSData *data;
+
+/*!
+ @abstract The filename for the attachment.
+ */
+@property (nonatomic, copy, readonly) NSString *filename;
+
+@end

@@ -16,23 +16,40 @@
 // IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 // CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKAccessToken.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKAppEvents.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKAppLinkUtility.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKApplicationDelegate.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKConstants.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKCopying.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKGraphRequest.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKGraphRequestConnection.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKMacros.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKMutableCopying.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKProfile.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKProfilePictureView.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKSettings.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKTestUsersManager.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKUtility.h>
+/*!
+ @abstract Class to contain common utility methods.
+ */
+@interface FBSDKUtility : NSObject
 
-#define FBSDK_VERSION_STRING @"4.1.0"
-#define FBSDK_TARGET_PLATFORM_VERSION @"v2.3"
+/*!
+ @abstract Parses a query string into a dictionary.
+ @param queryString The query string value.
+ @return A dictionary with the key/value pairs.
+ */
++ (NSDictionary *)dictionaryWithQueryString:(NSString *)queryString;
+
+/*!
+ @abstract Constructs a query string from a dictionary.
+ @param dictionary The dictionary with key/value pairs for the query string.
+ @param errorRef If an error occurs, upon return contains an NSError object that describes the problem.
+ @result Query string representation of the parameters.
+ */
++ (NSString *)queryStringWithDictionary:(NSDictionary *)dictionary error:(NSError *__autoreleasing *)errorRef;
+
+/*!
+ @abstract Decodes a value from an URL.
+ @param value The value to decode.
+ @result The decoded value.
+ */
++ (NSString *)URLDecode:(NSString *)value;
+
+/*!
+ @abstract Encodes a value for an URL.
+ @param value The value to encode.
+ @result The encoded value.
+ */
++ (NSString *)URLEncode:(NSString *)value;
+
+@end

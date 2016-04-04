@@ -16,23 +16,24 @@
 // IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 // CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKAccessToken.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKAppEvents.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKAppLinkUtility.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKApplicationDelegate.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKConstants.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKCopying.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKGraphRequest.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKGraphRequestConnection.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKMacros.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKMutableCopying.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKProfile.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKProfilePictureView.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKSettings.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKTestUsersManager.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKUtility.h>
+#ifdef __cplusplus
+#define FBSDK_EXTERN extern "C" __attribute__((visibility ("default")))
+#else
+#define FBSDK_EXTERN extern __attribute__((visibility ("default")))
+#endif
 
-#define FBSDK_VERSION_STRING @"4.1.0"
-#define FBSDK_TARGET_PLATFORM_VERSION @"v2.3"
+#define FBSDK_STATIC_INLINE static inline
+
+#define FBSDK_NO_DESIGNATED_INITIALIZER() \
+@throw [NSException exceptionWithName:NSInvalidArgumentException \
+                               reason:[NSString stringWithFormat:@"unrecognized selector sent to instance %p", self] \
+                             userInfo:nil]
+
+#define FBSDK_NOT_DESIGNATED_INITIALIZER(DESIGNATED_INITIALIZER) \
+@throw [NSException exceptionWithName:NSInvalidArgumentException \
+                               reason:[NSString stringWithFormat:@"Please use the designated initializer [%p %@]", \
+                                       self, \
+                                       NSStringFromSelector(@selector(DESIGNATED_INITIALIZER))] \
+                             userInfo:nil]

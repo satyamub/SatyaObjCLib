@@ -18,9 +18,9 @@
 
 #import <UIKit/UIKit.h>
 
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKButton.h>
+#import <FBSDKCoreKit/FBSDKButton.h>
 
-#import <SatyaObjCLib/FBSDKLoginKit/FBSDKLoginManager.h>
+#import <FBSDKLoginKit/FBSDKLoginManager.h>
 
 #import "FBSDKTooltipView.h"
 

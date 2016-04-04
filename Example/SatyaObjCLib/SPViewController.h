@@ -7,8 +7,8 @@
 //
 
 @import UIKit;
-#import <FBSDKCoreKit/FBSDKCoreKit.h>
-#import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import <SatyaObjCLib/FBSDKCoreKit/FBSDKCoreKit.h>
+#import <SatyaObjCLib/FBSDKLoginKit/FBSDKLoginKit.h>
 
 @interface SPViewController : UIViewController
 

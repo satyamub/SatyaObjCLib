@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SatyaObjCLib"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "This lib is to test the library with objective c with cocoapod package."
 
 # This description is used to generate tags and improve search results.

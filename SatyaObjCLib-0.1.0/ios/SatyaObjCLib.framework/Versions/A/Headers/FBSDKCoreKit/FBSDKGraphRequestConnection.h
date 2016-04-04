@@ -18,7 +18,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKMacros.h>
+#import <FBSDKCoreKit/FBSDKMacros.h>
 
 @class FBSDKGraphRequest;
 @class FBSDKGraphRequestConnection;

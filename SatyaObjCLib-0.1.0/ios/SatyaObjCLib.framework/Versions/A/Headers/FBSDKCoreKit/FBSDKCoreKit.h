@@ -18,21 +18,21 @@
 
 #import <UIKit/UIKit.h>
 
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKAccessToken.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKAppEvents.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKAppLinkUtility.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKApplicationDelegate.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKConstants.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKCopying.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKGraphRequest.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKGraphRequestConnection.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKMacros.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKMutableCopying.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKProfile.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKProfilePictureView.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKSettings.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKTestUsersManager.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKUtility.h>
+#import <FBSDKCoreKit/FBSDKAccessToken.h>
+#import <FBSDKCoreKit/FBSDKAppEvents.h>
+#import <FBSDKCoreKit/FBSDKAppLinkUtility.h>
+#import <FBSDKCoreKit/FBSDKApplicationDelegate.h>
+#import <FBSDKCoreKit/FBSDKConstants.h>
+#import <FBSDKCoreKit/FBSDKCopying.h>
+#import <FBSDKCoreKit/FBSDKGraphRequest.h>
+#import <FBSDKCoreKit/FBSDKGraphRequestConnection.h>
+#import <FBSDKCoreKit/FBSDKMacros.h>
+#import <FBSDKCoreKit/FBSDKMutableCopying.h>
+#import <FBSDKCoreKit/FBSDKProfile.h>
+#import <FBSDKCoreKit/FBSDKProfilePictureView.h>
+#import <FBSDKCoreKit/FBSDKSettings.h>
+#import <FBSDKCoreKit/FBSDKTestUsersManager.h>
+#import <FBSDKCoreKit/FBSDKUtility.h>
 
 #define FBSDK_VERSION_STRING @"4.1.0"
 #define FBSDK_TARGET_PLATFORM_VERSION @"v2.3"

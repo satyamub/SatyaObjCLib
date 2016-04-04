@@ -16,23 +16,20 @@
 // IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 // CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKAccessToken.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKAppEvents.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKAppLinkUtility.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKApplicationDelegate.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKConstants.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKCopying.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKGraphRequest.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKGraphRequestConnection.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKMacros.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKMutableCopying.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKProfile.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKProfilePictureView.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKSettings.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKTestUsersManager.h>
-#import <SatyaObjCLib/FBSDKCoreKit/FBSDKUtility.h>
+#import <FBSDKCoreKit/FBSDKCopying.h>
 
-#define FBSDK_VERSION_STRING @"4.1.0"
-#define FBSDK_TARGET_PLATFORM_VERSION @"v2.3"
+/*!
+ @abstract Extension protocol for NSMutableCopying that adds the mutableCopy method, which is implemented on NSObject.
+ @discussion NSObject<NSCopying, NSMutableCopying> implicitly conforms to this protocol.
+ */
+@protocol FBSDKMutableCopying <FBSDKCopying, NSMutableCopying>
+
+/*!
+ @abstract Implemented by NSObject as a convenience to mutableCopyWithZone:.
+ @return A mutable copy of the receiver.
+ */
+- (id)mutableCopy;
+
+@end

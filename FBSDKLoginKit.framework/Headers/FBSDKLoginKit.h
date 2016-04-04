@@ -18,8 +18,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import <FBSDKLoginKit/FBSDKLoginButton.h>
-#import <FBSDKLoginKit/FBSDKLoginConstants.h>
-#import <FBSDKLoginKit/FBSDKLoginManager.h>
-#import <FBSDKLoginKit/FBSDKLoginManagerLoginResult.h>
-#import <FBSDKLoginKit/FBSDKLoginTooltipView.h>
+#import <SatyaObjCLib/FBSDKLoginKit/FBSDKLoginButton.h>
+#import <SatyaObjCLib/FBSDKLoginKit/FBSDKLoginConstants.h>
+#import <SatyaObjCLib/FBSDKLoginKit/FBSDKLoginManager.h>
+#import <SatyaObjCLib/FBSDKLoginKit/FBSDKLoginManagerLoginResult.h>
+#import <SatyaObjCLib/FBSDKLoginKit/FBSDKLoginTooltipView.h>
